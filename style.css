@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Raleway:wght@100;200&family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+
+body{
+  background-image: url("https://th.bing.com/th/id/R.2b1044b09a677ac4a4f4ff3bc531d603?rik=inllcp28YX%2b3LQ&riu=http%3a%2f%2fwallpapershdnow.com%2fimages%2ftv-shows%2fanimation%2frick-and-morty%2frick-and-morty-background-46.jpg&ehk=B3OOAYVUk4AllXzIiFfsKurnITnRKJgAma%2bzOIrK7XY%3d&risl=&pid=ImgRaw&r=0");
+  background-size: cover;
+}
+
+header {
+  background-color: darkslategray;
+}
+
+header h1 {
+  color: white;
+  font-size: 30px;
+  padding: 10px 10px;
+  font-weight: 700;
+}
+
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+section button {
+  width: 40px;
+  height: 40px;
+  margin: 0px 5px;
+  cursor: pointer;
+  background-color: green;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+}
+
+section button:hover{
+  background-color: white;
+  color: green;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+.pagination {
+  display: flex;
+}
+
+main div {
+  width: 320px;
+  margin: 40px;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+main div:hover {
+  -webkit-box-shadow: 10px 10px 22px 6px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 40px black;
+}
+
+main img {
+  height: 250px;
+  width: 90%;
+  border-radius: 20px;
+}
+/* 
+main img:hover{
+  width: 100%;
+} */
+
+main h1 {
+  font-size: 25px;
+  font-weight: 600;
+  padding: 10px;
+  color: white;
+}
+
+main button {
+  font-size: 15px;
+  padding: 2px;
+  width: 250px;
+  border: none;
+  border-radius: 20px;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+
+main button:hover{
+  background-color: white;
+  color: green;
+}
+
+footer {
+  font-size: 15px;
+  background-color: darkslategray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  padding: 10px;
+  color: white;
+}
+
+footer span {
+  font-size: 10px;
+}
